@@ -13,6 +13,7 @@
 		983B12E3239C2E02002B023C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983B12E1239C2E02002B023C /* Main.storyboard */; };
 		983B12E5239C2E03002B023C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983B12E4239C2E03002B023C /* Assets.xcassets */; };
 		983B12E8239C2E03002B023C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983B12E6239C2E03002B023C /* LaunchScreen.storyboard */; };
+		983B12F0239C2ED7002B023C /* HolidaysTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B12EF239C2ED7002B023C /* HolidaysTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		983B12E4239C2E03002B023C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983B12E7239C2E03002B023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		983B12E9239C2E03002B023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983B12EF239C2ED7002B023C /* HolidaysTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				983B12DD239C2E02002B023C /* SceneDelegate.swift */,
 				983B12DF239C2E02002B023C /* ViewController.swift */,
 				983B12E1239C2E02002B023C /* Main.storyboard */,
+				983B12EF239C2ED7002B023C /* HolidaysTableViewController.swift */,
 				983B12E4239C2E03002B023C /* Assets.xcassets */,
 				983B12E6239C2E03002B023C /* LaunchScreen.storyboard */,
 				983B12E9239C2E03002B023C /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				983B12F0239C2ED7002B023C /* HolidaysTableViewController.swift in Sources */,
 				983B12E0239C2E02002B023C /* ViewController.swift in Sources */,
 				983B12DC239C2E02002B023C /* AppDelegate.swift in Sources */,
 				983B12DE239C2E02002B023C /* SceneDelegate.swift in Sources */,
