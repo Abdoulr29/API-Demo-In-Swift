@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B441E63239E779F00419DB2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B441E62239E779F00419DB2 /* Constants.swift */; };
+		8B441E65239E794E00419DB2 /* Holiday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B441E64239E794E00419DB2 /* Holiday.swift */; };
+		8B441E67239E7C6700419DB2 /* HolidayRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B441E66239E7C6700419DB2 /* HolidayRequest.swift */; };
+		8BF4739323A75F210042AC9C /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF4739223A75F210042AC9C /* Test.swift */; };
 		983B12DC239C2E02002B023C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B12DB239C2E02002B023C /* AppDelegate.swift */; };
 		983B12DE239C2E02002B023C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B12DD239C2E02002B023C /* SceneDelegate.swift */; };
 		983B12E0239C2E02002B023C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983B12DF239C2E02002B023C /* ViewController.swift */; };
@@ -17,6 +21,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B441E62239E779F00419DB2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B441E64239E794E00419DB2 /* Holiday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Holiday.swift; sourceTree = "<group>"; };
+		8B441E66239E7C6700419DB2 /* HolidayRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayRequest.swift; sourceTree = "<group>"; };
+		8BF4739223A75F210042AC9C /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		983B12D8239C2E02002B023C /* API Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "API Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		983B12DB239C2E02002B023C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983B12DD239C2E02002B023C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				983B12E4239C2E03002B023C /* Assets.xcassets */,
 				983B12E6239C2E03002B023C /* LaunchScreen.storyboard */,
 				983B12E9239C2E03002B023C /* Info.plist */,
+				8B441E62239E779F00419DB2 /* Constants.swift */,
+				8B441E64239E794E00419DB2 /* Holiday.swift */,
+				8B441E66239E7C6700419DB2 /* HolidayRequest.swift */,
+				8BF4739223A75F210042AC9C /* Test.swift */,
 			);
 			path = "API Example";
 			sourceTree = "<group>";
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B441E67239E7C6700419DB2 /* HolidayRequest.swift in Sources */,
+				8B441E65239E794E00419DB2 /* Holiday.swift in Sources */,
+				8B441E63239E779F00419DB2 /* Constants.swift in Sources */,
 				983B12F0239C2ED7002B023C /* HolidaysTableViewController.swift in Sources */,
 				983B12E0239C2E02002B023C /* ViewController.swift in Sources */,
+				8BF4739323A75F210042AC9C /* Test.swift in Sources */,
 				983B12DC239C2E02002B023C /* AppDelegate.swift in Sources */,
 				983B12DE239C2E02002B023C /* SceneDelegate.swift in Sources */,
 			);
